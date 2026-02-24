@@ -51,7 +51,6 @@ This ensures:
 - Controlled randomness
 - Realistic noisy behaviour
 
----
 
 **2.Data Generation**
 
@@ -71,7 +70,7 @@ This ensures:
 | x | Input variable |
 | y | Simulated output |
 
----
+
 **3.Train-Test Split**
 
 - 80% Training data
@@ -80,7 +79,6 @@ This ensures:
 
 This ensures fair and reproducible evaluation.
 
----
 
 **4.Models Used**
 
@@ -95,7 +93,6 @@ The following regression models were implemented:
 - Support Vector Regressor (SVR)
 - Gradient Boosting Regressor
 
----
 
 **5.Evaluation Metrics**
 
@@ -127,10 +124,9 @@ Closer to 1 indicates better performance.
 | SVR | 1804.27 | 0.3213 |
 
 ---
+**Result Graph Explanation**
 
-**Model Comparison (R² Score)**
-
-![Model Comparison R2](model_comparison_r2.png)
+A bar graph was plotted to compare R² scores across models.
 
 **Observations:**
 
@@ -154,7 +150,7 @@ This confirms that nonlinear models are better suited for nonlinear simulated sy
 
 ---
 
-# 🛠️ Technologies Used
+**Technologies Used**
 
 - Python
 - NumPy
